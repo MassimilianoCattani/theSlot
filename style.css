@@ -4,20 +4,21 @@
 body{
     width:90%;
     margin:auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .container{
     margin: 1em;
 }
 h1{
-    color:#888;
-    background-color: #ccc;
-    font-style: italic;
+    color:#c69007;
+    background: url(./media/head_backgr.png);
+    background-size: cover;
+    font-style: bold;
     text-shadow: #000 1px 1px;
     font-size: 40px;
     margin-top:0.5em;
     padding:0.3em;
-    border: 1px #aaa dotted;
+    border: 1px #555 solid;
     border-radius:5px;
 }
 /*=======================================================================*/
@@ -121,7 +122,8 @@ li{
 }
 #single-bet{
     margin-bottom: 3em;
-    background-color: #ccc;
+    background-color: #239020;
+    color:#fff;
     width:57%;
     padding:3%;
 }
@@ -213,13 +215,7 @@ h5{
 td{
     text-align:center;
 }
-/*img*/
-img{
-    height:50px;
-    width:50px;
-    border: solid 1px #500fc0;
-    margin-right:0.5em;
-}
+
 @media screen and (max-width: 320px){
     #single-bet{
         display:flex;
