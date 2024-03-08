@@ -170,9 +170,10 @@ h5{
     text-shadow: #500fc0 1px 1px;
 }
 /*end game over messages*/
+
 /*messages*/
 .mess-z, .mess-1, .mess-2, .mess-3, .mess-4{
-    color:#500fc0;
+    color:#8752e4;
     display:none;
 }
 .mess-q{
