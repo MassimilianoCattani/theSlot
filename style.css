@@ -69,11 +69,11 @@ li{
 /*final data*/
 #won-msg, #draw-msg, #lost-msg, #final-earning-text{
     display:none;
-    color:rgb(0, 26, 255);
+    color:rgb(92, 105, 226);
     font-size: 25px;
 }
 #final-earning{
-    color:orangered;
+    color:rgb(228, 126, 89);
     font-size: 35px;
 }
 /* end final data*/
